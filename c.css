@@ -1,6 +1,6 @@
 @charset "utf-8";
 .top {
-    width: 100%;
+    width: 70%;
     height: 50px;
     color: #FFFFFF;
 }
@@ -15,6 +15,7 @@ div {
 #tutorial {
     text-align: right;
     font-size: xx-large;
+    width: 70%;
 }
 
 #tutorial img {
@@ -43,7 +44,7 @@ div {
 .RightNavigation:hover.Navigation {
     display: block;
 }.recommendation {
-    width: 100%;
+    width: 70%;
 }
 a{
     text-decoration: none;
@@ -51,5 +52,10 @@ a{
 }#DisPlay {
     float: left;
 }
+#goto {
+    float: left;
+
+}
+
 #subscription {
 }
