@@ -1,7 +1,7 @@
 @charset "utf-8";
 .top {
-    width: 70%;
-    height: 50px;
+    width: 100%;
+    height: 65px;
     color: #FFFFFF;
 }
 div {
@@ -9,13 +9,13 @@ div {
     color: white;
 }
 #tutorial p {
-    padding-bottom: 19px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 #tutorial {
     text-align: right;
     font-size: xx-large;
-    width: 70%;
+    width: 100%;
 }
 
 #tutorial img {
@@ -28,24 +28,40 @@ div {
     padding-left: 5px;
     float: left;
     width: 50%;
+    font-size: xx-large;
+    text-align: center;
 
 }
 .top #RightNavigation {
     float: right;
 }
 #Navigation {
-    width: 80%;
+    width: 70%;
     height: 100%;
     z-index: 1;
-    float: right;
-    position: absolute;
     display: none;
+    text-align: left;
+    float: right;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 350px;
 }
-.RightNavigation:hover.Navigation {
+
+.RightNavigation:hover #Navigation {
     display: block;
-}.recommendation {
-    width: 70%;
 }
+tbody tr th {
+    height: 100px;
+}
+.recommendation {
+    width: 100%;
+
+}
+tr th p {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -55,7 +71,4 @@ a{
 #goto {
     float: left;
 
-}
-
-#subscription {
 }
