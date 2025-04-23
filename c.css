@@ -3,9 +3,7 @@
     width: 100%;
     height: 65px;
     color: #FFFFFF;
-}
-div {
-    background-color: #C00000;
+	background-color: #C00000;
     color: white;
 }
 #tutorial p {
@@ -16,6 +14,8 @@ div {
     text-align: right;
     font-size: xx-large;
     width: 100%;
+	background-color: #C00000;
+    color: white;
 }
 
 #tutorial img {
@@ -55,7 +55,7 @@ tbody tr th {
 }
 .recommendation {
     width: 100%;
-
+	height: auto;
 }
 tr th p {
     font-size: xx-large;
@@ -65,10 +65,24 @@ tr th p {
 a{
     text-decoration: none;
     color: white;
-}#DisPlay {
-    float: left;
 }
-#goto {
-    float: left;
 
+.halfleft {
+	float:left;
+	width:50%;
+	margin-top: 8px;
+}
+.halfright {
+	float:right;
+	width:50%;
+	margin-top: 8px;
+}
+.img {
+	width:100%;
+	height:auto;
+}
+.imgbox{
+    width: 100%;
+    height: auto;
+	position: relative
 }
