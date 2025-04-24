@@ -4,49 +4,59 @@
 <meta charset="utf-8">
 <title>首页</title>
 <link href="c.css" rel="stylesheet" type="text/css">
+<script>
+	function Open_or_Close_Navigation(){
+	var Na=document.getElementById("Navigation");
+	if(Na.style.display=="none")Na.style.display="block";
+	else Na.style.display="none";
+}
+	</script>
 </head>
 
 <body>
-	<div id="Navigation">
-  <table width="200" border="1">
-    <tbody>
+
+<div class="top">
+	<div id="toptitle">文化印记，云游有道</div>
+	<button id="openNavigation" onclick="Open_or_Close_Navigation()"><img src="images/右侧导航栏.png" alt="" width="57" height="56"/></button>
+</div>
+<div id="Navigation">
+
+	<table width="200" border="0">
+    <tbody style="font-weight: bolder">
 	      <tr>
-	        <th width="190" scope="row"><p>个人信息</p></th>
+	        <th scope="row"><p><a href="files/个人信息.html">个人信息</a></p></th>
           </tr>
 	      <tr>
-	        <th scope="row"><p>规划记录</p></th>
+	        <th scope="row"><p><a href="files/规划记录.html">规划记录</a></p></th>
           </tr>
 	      <tr>
-	        <th scope="row"><p>会员充值</p></th>
+	        <th scope="row"><p><a href="files/会员充值.html">会员充值</a></p></th>
           </tr>
 	      <tr>
-	        <th scope="row"><p>账号退出</p></th>
+	        <th scope="row"><p><a href="files/账号登录系统.html">账号登录</a></p></th>
           </tr>
         </tbody>
   </table>
-</div>
-<div class="top">
-	<div id="toptitle">文化印记，云游有道</div>
-	<img src="images/右侧导航栏.png" alt="" width="57" height="56" id="RightNavigation"/>
 </div>
 <a href="files/推荐景点.html"><img src="images/首页上方图片.png" width="604" height="355" alt="" class="recommendation"/></a>
 <div id="tutorial">
   <p><a href="files/新手教程.html"><img src="images/新手教程.png" width="60" height="60" alt=""/>新手教程</a></p>
 </div>
 <div class="imgbox">
-	<div class="halfleft"><a href="files/交流展示.html"><img src="images/交流展示.png" alt="" width="97" height="156" class="img"/></a></div>
-	<div class="halfright">
-	<a href="files/文化印记.html"><img src="images/文化印记.png" alt="" width="302" height="228" class="img"/></a>
+	<div class="halfleft">
+		<a href="files/交流展示.html"><img src="images/交流展示.png" alt="" width="129" height="208" class="img"/></a>
 	</div>
 	<div class="halfright">
-	<a href="files/特色文创.html"><img src="images/特色文创.png" alt="" width="302" height="252" class="img"/></a>
+		<a href="files/文化印记.html"><img src="images/文化印记.png" alt="" width="126" height="95" class="img"/></a>
+	</div>
+	<div class="halfright">
+		<a href="files/特色文创.html"><img src="images/特色文创.png" alt="" width="126" height="105" class="img"/></a>
 	</div>
 </div>
-<br />
 <div class="imgbox">
 	<div class="halfleft">
 		<a href="files/即刻出发.html"><img src="images/即刻出发.png" alt="" width="302" height="201" class="img"/></a>
-	</div>
+  	</div>
 	<div class="halfright">
 		<a href="files/订阅服务.html"><img src="images/订阅服务.png" alt="" width="90%" height="115" class="img"/></a>
 	</div>

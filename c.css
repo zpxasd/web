@@ -4,7 +4,6 @@
     height: 65px;
     color: #FFFFFF;
 	background-color: #C00000;
-    color: white;
 }
 #tutorial p {
     padding-bottom: 5px;
@@ -14,10 +13,10 @@
     text-align: right;
     font-size: xx-large;
     width: 100%;
+	height: auto;
 	background-color: #C00000;
     color: white;
 }
-
 #tutorial img {
     float: left;
     padding-left: 10px;
@@ -30,23 +29,21 @@
     width: 50%;
     font-size: xx-large;
     text-align: center;
-
 }
-.top #RightNavigation {
-    float: right;
+#openNavigation {
+float: right;
 }
 #Navigation {
     width: 70%;
     height: 100%;
     z-index: 1;
     display: none;
-    text-align: left;
     float: right;
-    position: relative;
     padding-top: 70px;
     padding-bottom: 350px;
+    background-color: #C00000;
+    color: white;
 }
-
 .RightNavigation:hover #Navigation {
     display: block;
 }
@@ -61,12 +58,10 @@ tr th p {
     font-size: xx-large;
     font-weight: bolder;
 }
-
 a{
     text-decoration: none;
     color: white;
 }
-
 .halfleft {
 	float:left;
 	width:50%;
